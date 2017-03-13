@@ -229,6 +229,14 @@ input[type=submit] {
     text-decoration: none;
 }
 
+.margin-right-image{
+        margin-right: 50px;
+    }
+
+.margin-bottom-image {
+    margin-bottom: 40px
+}
+
 /* css for the connect aside panel */
 
 aside {
@@ -495,6 +503,14 @@ html, body {
         text-decoration: none;
     }
 
+    .margin-right-image{
+        margin-right: 50px;
+    }
+
+    .margin-bottom-image {
+        margin-bottom: 40px
+    }
+
     /* css for the connect aside panel */
 
     aside {
@@ -659,8 +675,122 @@ header {
     padding-right: 0;
 }
 
+/*for MAIN CONTENT*/
 
-    
+.container {
+    width: 100%;
+    margin: 0 auto;
+    height: 960px;
+    clear: both;
+}
+
+#main-panel-title {
+    margin-left: 20px;
+    border-bottom: 2px solid #cccccc;
+    margin-right: 20px;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#main-section {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0;
+    border: 1px solid #dddddd;
+    /* margin-right: 36px; */
+    /* padding-bottom: 20px; */
+    background-color: #ffffff;
+    float: left;
+}
+
+/*for ASIDE*/
+
+aside {
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    margin-right: 0;
+    float: left;
+}
+
+/* css for CONTACT */
+
+    #submit-form{
+        margin-left: 20px;
+        margin-bottom: 0;
+        margin-right: 20px;
+    }
+
+    input {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .input-boxes {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    textarea {
+        height: 100px;
+        max-height: 150px;
+        margin-top: 10px
+    }
+
+    input[type=submit] {
+        background-color: #4aaaa5;
+        color: white;
+        padding: 10px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 12px;
+    } 
+
+/* css for PORTFOLIO */
+
+    #ul-portfolio {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+        margin-right: 20px;
+    }
+
+    .li-portfolio {
+        float: left;
+        list-style-type: none;
+        width: 100%;
+        height: 82.14%;
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .image-portfolio {
+        float: left;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        /* margin-right: 10px; */
+    }
+
+    .a-portfolio {
+        float: left;
+        position: relative;
+        bottom: 65px;
+        background-color: #4aaaa5;
+        width: 100%;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+
 }
 
 

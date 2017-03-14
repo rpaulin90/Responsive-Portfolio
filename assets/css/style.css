@@ -7,6 +7,7 @@ header {
     padding-top: 0;
     float: left;
     height: 105px;
+    margin-bottom: 0px;
 }
 
 body {
@@ -325,6 +326,7 @@ html, body {
         padding-top: 0;
         float: left;
         height: 105px;
+        margin-bottom: 0px;
     }
 
     body {
@@ -433,7 +435,7 @@ html, body {
 
     #profile-pic {
         margin: 20px;
-        width: 90%;
+        width: 93%;
         height: 100%;
         float: none;
     }
@@ -602,6 +604,292 @@ html, body {
 }
 
 @media screen and (max-width: 768px) {
+
+    header {
+        width: 100%;
+        background-color: #ffffff;
+        border-bottom: 2px solid #cccccc;
+        padding-top: 0;
+        float: left;
+        height: 105px;
+        margin-bottom: 0px;
+    }
+
+    body {
+    color: grey;
+    height: 2200px;
+    min-width: 100%;
+    width: 100%;
+    padding: 0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background-image: url(../images/ignasi_pattern_s.png);
+    }
+
+
+    #header {
+    width: 100%;
+    /*margin: 0 auto;*/
+    height: 105px;
+}
+    
+    #container-name {
+    float: left;
+    margin-top: 40px;
+    padding: 20px;
+    margin-left: 20px;
+    background-color: #4aaaa5;
+    }
+
+    #name-h2 {
+    float: left;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-size: 25px;
+    font-weight: bold;
+    }
+
+    #header-links {
+        float: right;
+        width: 270px;
+        margin-top: 49px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        margin-right: 20px;
+    }
+
+    #ul-links {
+        list-style-type: none;
+        width: 270px;
+        padding: 0;
+    }
+
+    .li-links {
+        float: right;
+        margin: 0;
+        display: block;
+        text-align: center;
+    }
+
+    .padding-left {
+    padding-left: 24px;
+    }
+
+    .padding-right {
+        padding-right: 24px;
+    }
+
+    .border-right {
+        border-right: 1px solid #cccccc;
+    }
+
+    .margin-right {
+        margin-right: 60px;
+    }
+
+    /*MAIN CONTENT*/
+
+    .container {
+    width: 100%;
+    margin: 0 auto;
+    height: 960px;
+    clear: both;
+}
+
+    #main-panel-title {
+    margin-left: 20px;
+    border-bottom: 2px solid #cccccc;
+    margin-right: 20px;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    }
+
+    #main-section {
+        width: 94%;
+        margin-top: 20px;
+        margin-left: 20px;
+        border: 1px solid #dddddd;
+        margin-right: 0;
+        padding-bottom: 20px;
+        background-color: #ffffff;
+        float: left;
+    }
+
+    /* css for INDEX */
+
+    #profile-pic {
+        margin: 20px;
+        width: 190px;
+        height: 172.5px;
+        float: left;
+    }
+
+    #description {
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+
+    /* css for CONTACT */
+
+    #submit-form{
+        margin-left: 20px;
+        margin-bottom: 0;
+        margin-right: 20px;
+    }
+
+    input {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .input-boxes {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    textarea {
+        height: 100px;
+        max-height: 150px;
+        margin-top: 10px
+    }
+
+    input[type=submit] {
+        background-color: #4aaaa5;
+        color: white;
+        padding: 10px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 12px;
+    } 
+
+    /* css for PORTFOLIO */
+
+    #ul-portfolio {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .li-portfolio {
+        float: left;
+        list-style-type: none;
+        width: 48%;
+        height: 50%;
+        padding: 0;
+        /*margin-bottom: 40px;*/
+    }
+
+    .image-portfolio {
+        float: left;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        /* margin-right: 10px; */
+    }
+
+    .a-portfolio {
+        float: left;
+        position: relative;
+        bottom: 65px;
+        background-color: #4aaaa5;
+        width: 100%;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .margin-right-image{
+        margin-right: 20px;
+    }
+
+    .margin-bottom-image {
+        margin-bottom: 20px;
+    }
+
+    /* css for the connect aside panel */
+
+    aside {
+        width: 94%;
+        margin-top: 20px;
+        border: 1px solid #dddddd;
+        background-color: #ffffff;
+        margin-right: 0;
+        float: left;
+        margin-left: 20px;
+    }
+
+
+    .li-connect {
+        float: left;
+        margin-left: 0;
+        display: block;
+        text-align: center;
+        width: 10%;
+        height: 10%;
+        text-align: center;
+        margin-right: 5%;
+    }
+
+    h3 {
+        margin: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        border-bottom: 2.5px solid #cccccc;
+    }
+
+    #ul-connect {
+        list-style-type: none;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 0;
+    }
+
+
+    .a-connect {
+        display: block;
+        text-align: center;
+    }
+
+    .icons {
+        height: 100%;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    /* css for the sticky footer starts here */
+
+    .footer {
+        text-align: center;
+        color: #cccccc;
+        position: relative;
+        top: 20px;
+    }
+    
+    .page-wrap {
+      min-height: 100%;
+      /* equal to footer height */
+      margin-bottom: -60px; 
+    }
+    .page-wrap:after {
+      content: "";
+      display: block;
+    }
+    .site-footer, .page-wrap:after {
+      height: 60px; 
+    }
+    .site-footer {
+      background: grey;
+      border-top: 5px solid #4aaaa5;
+    }
+
     
 }
 
@@ -626,6 +914,7 @@ header {
     border-bottom: 2px solid #cccccc;
     padding-top: 0;
     float: left;
+    margin-bottom: 0px;
 }
 
 #header {
@@ -728,6 +1017,18 @@ aside {
     background-color: #ffffff;
     margin-right: 0;
     float: left;
+    margin-left: 0;
+}
+
+.li-connect {
+    float: left;
+    margin-left: 0;
+    display: block;
+    text-align: center;
+    width: 10%;
+    height: 10%;
+    text-align: center;
+    margin-right: 5%;
 }
 
 /* css for CONTACT */

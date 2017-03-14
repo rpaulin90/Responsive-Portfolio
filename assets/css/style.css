@@ -1,4 +1,5 @@
 
+
 header {
     width: 100%;
     background-color: #ffffff;
@@ -9,7 +10,7 @@ header {
 }
 
 body {
-	color: grey;
+    color: grey;
     min-width: 1000px;
     width: 100%;
     padding: 0;
@@ -19,14 +20,14 @@ body {
 }
 
 h2, h3, h6 {
-	color: #4aaaa5;
-	font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 20px;
     font-weight: bold;
 }
 
 section {
-	background-color: #ffffff;
+    background-color: #ffffff;
 }
 
 #header{
@@ -38,14 +39,14 @@ section {
 /* start of header IDs and classes */
 
 #container-name {
-	float: left;
+    float: left;
     margin-top: 40px;
     padding: 20px;
     background-color: #4aaaa5;
 }
 
 #name-h2 {
-	float: left;
+    float: left;
     color: #ffffff;
     background-color: #4aaaa5;
     font-size: 25px;
@@ -53,7 +54,7 @@ section {
 }
 
 #header-links {
-	float: right;
+    float: right;
     width: 270px;
     margin-top: 49px;
     padding-bottom: 20px;
@@ -61,13 +62,13 @@ section {
 }
 
 #ul-links {
-	list-style-type: none;
-	width: 270px;
-	padding: 0;
+    list-style-type: none;
+    width: 270px;
+    padding: 0;
 }
 
 .li-links {
-	float: right;
+    float: right;
     margin: 0;
     display: block;
     text-align: center;
@@ -94,11 +95,11 @@ a:visited {
 }
 
 .padding-left {
-	padding-left: 24px;
+    padding-left: 24px;
 }
 
 .padding-right {
-	padding-right: 24px;
+    padding-right: 24px;
 }
 
 .border-right {
@@ -106,7 +107,7 @@ a:visited {
 }
 
 .margin-right {
-	margin-right: 60px;
+    margin-right: 60px;
 }
 
 /* end of header IDs and classes */
@@ -121,7 +122,7 @@ a:visited {
 }
 
 #main-panel-title {
-	margin-left: 20px;
+    margin-left: 20px;
     border-bottom: 2px solid #cccccc;
     margin-right: 20px;
     margin-top: 40px;
@@ -144,14 +145,14 @@ a:visited {
 /* css for INDEX */
 
 #profile-pic {
-	margin: 20px;
+    margin: 20px;
     width: 190px;
     height: 172.5px;
     float: left;
 }
 
 #description {
-	margin-left: 20px;
+    margin-left: 20px;
     margin-top: 20px;
     margin-right: 20px;
 }
@@ -159,19 +160,19 @@ a:visited {
 /* css for CONTACT */
 
 #submit-form{
-	margin-left: 20px;
+    margin-left: 20px;
     margin-bottom: 0;
     margin-right: 20px;
 }
 
 input {
-	margin-top: 10px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .input-boxes {
-	width: 605px;
-	max-width: 605px;
+    width: 605px;
+    max-width: 605px;
 }
 
 textarea {
@@ -200,7 +201,7 @@ input[type=submit] {
 }
 
 .li-portfolio {
-	float: left;
+    float: left;
     list-style-type: none;
     width: 280px;
     height: 230px;
@@ -209,7 +210,7 @@ input[type=submit] {
 }
 
 .image-portfolio {
-	float: left;
+    float: left;
     overflow: hidden;
     width: 280px;
     height: 230px;
@@ -217,7 +218,7 @@ input[type=submit] {
 }
 
 .a-portfolio {
-	float: left;
+    float: left;
     position: relative;
     bottom: 65px;
     background-color: #4aaaa5;
@@ -240,7 +241,7 @@ input[type=submit] {
 /* css for the connect aside panel */
 
 aside {
-	width: 270px;
+    width: 270px;
     margin-top: 20px;
     border: 1px solid #dddddd;
     background-color: #ffffff;
@@ -257,26 +258,26 @@ h3 {
 }
 
 #ul-connect {
-	list-style-type: none;
+    list-style-type: none;
     margin-left: 20px;
     margin-right: 20px;
     padding: 0;
 }
 
 .li-connect {
-	float: left;
+    float: left;
     margin-left: 0;
     display: block;
     text-align: center;
 }
 
 .a-connect {
-	display: block;
-	text-align: center;
+    display: block;
+    text-align: center;
 }
 
 .icons {
-	height: 60px;
+    height: 60px;
     width: 60px;
     margin-bottom: 20px;
 }
@@ -284,7 +285,7 @@ h3 {
 /* css for the sticky footer starts here */
 
 .footer {
-	text-align: center;
+    text-align: center;
     color: #cccccc;
     position: relative;
     top: 20px;
@@ -328,7 +329,8 @@ html, body {
 
     body {
     color: grey;
-    min-width: 1000px;
+    height: 2200px;
+    min-width: 100%;
     width: 100%;
     padding: 0;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -336,16 +338,18 @@ html, body {
     background-image: url(../images/ignasi_pattern_s.png);
     }
 
-    #header{
-    width: 960px;
-    margin: 0 auto;
+
+    #header {
+    width: 100%;
+    /*margin: 0 auto;*/
     height: 105px;
-    }
+}
     
     #container-name {
     float: left;
     margin-top: 40px;
     padding: 20px;
+    margin-left: 20px;
     background-color: #4aaaa5;
     }
 
@@ -363,6 +367,7 @@ html, body {
         margin-top: 49px;
         padding-bottom: 20px;
         padding-top: 20px;
+        margin-right: 20px;
     }
 
     #ul-links {
@@ -394,6 +399,15 @@ html, body {
         margin-right: 60px;
     }
 
+    /*MAIN CONTENT*/
+
+    .container {
+    width: 100%;
+    margin: 0 auto;
+    height: 960px;
+    clear: both;
+}
+
     #main-panel-title {
     margin-left: 20px;
     border-bottom: 2px solid #cccccc;
@@ -405,11 +419,11 @@ html, body {
     }
 
     #main-section {
-        width: 650px;
+        width: 60%;
         margin-top: 20px;
-        margin-left: 0;
+        margin-left: 20px;
         border: 1px solid #dddddd;
-        margin-right: 36px;
+        margin-right: 0;
         padding-bottom: 20px;
         background-color: #ffffff;
         float: left;
@@ -419,9 +433,9 @@ html, body {
 
     #profile-pic {
         margin: 20px;
-        width: 190px;
-        height: 172.5px;
-        float: left;
+        width: 90%;
+        height: 100%;
+        float: none;
     }
 
     #description {
@@ -444,8 +458,8 @@ html, body {
     }
 
     .input-boxes {
-        width: 605px;
-        max-width: 605px;
+        width: 100%;
+        max-width: 100%;
     }
 
     textarea {
@@ -470,14 +484,15 @@ html, body {
     #ul-portfolio {
         margin-top: 20px;
         margin-bottom: 20px;
+        padding-right: 20px;
         padding-left: 20px;
     }
 
     .li-portfolio {
         float: left;
         list-style-type: none;
-        width: 280px;
-        height: 230px;
+        width: 100%;
+        height: 350px;
         padding: 0;
         /*margin-bottom: 40px;*/
     }
@@ -485,8 +500,8 @@ html, body {
     .image-portfolio {
         float: left;
         overflow: hidden;
-        width: 280px;
-        height: 230px;
+        width: 100%;
+        height: 100%;
         /* margin-right: 10px; */
     }
 
@@ -495,7 +510,7 @@ html, body {
         position: relative;
         bottom: 65px;
         background-color: #4aaaa5;
-        width: 280px;
+        width: 100%;
         text-align: center;
         padding-top: 15px;
         padding-bottom: 15px;
@@ -504,23 +519,22 @@ html, body {
     }
 
     .margin-right-image{
-        margin-right: 50px;
+        margin-right: 0px;
     }
 
     .margin-bottom-image {
-        margin-bottom: 40px
+        margin-bottom: 20px
     }
 
     /* css for the connect aside panel */
 
     aside {
-        width: 270px;
+        width: 30%;
         margin-top: 20px;
         border: 1px solid #dddddd;
         background-color: #ffffff;
-        margin-right: 0;
-        float: left;
-
+        margin-right: 20px;
+        float: right;
     }
 
     h3 {
@@ -542,6 +556,10 @@ html, body {
         margin-left: 0;
         display: block;
         text-align: center;
+        width: 20%;
+        height: 20%;
+        text-align: center;
+        margin-right: 13%;
     }
 
     .a-connect {
@@ -550,9 +568,9 @@ html, body {
     }
 
     .icons {
-        height: 60px;
-        width: 60px;
-        margin-bottom: 20px;
+        height: 100%;
+        width: 100%;
+        margin-bottom: 10px;
     }
 
     /* css for the sticky footer starts here */
@@ -563,13 +581,7 @@ html, body {
         position: relative;
         top: 20px;
     }
-
-    * {
-      margin: 0;
-    }
-    html, body {
-      height: 100%;
-    }
+    
     .page-wrap {
       min-height: 100%;
       /* equal to footer height */
@@ -596,7 +608,7 @@ html, body {
 @media screen and (max-width: 640px) {
 
 body {
-    height: 100%;
+    height: 2750px;
     color: grey;
     width: 100%;
     padding: 0;
@@ -629,6 +641,7 @@ header {
     background-color: #4aaaa5;
     height: 50%;
     width: 100%;
+    margin-left: 0;
 }
 
 #name-h2 {
@@ -647,6 +660,7 @@ header {
     margin-top: 0;
     padding-bottom: 18.25px;
     padding-top: 18.25px;
+    margin-right: 0;
 }
 
 #ul-links {
@@ -757,7 +771,7 @@ aside {
         margin-top: 20px;
         margin-bottom: 20px;
         padding-left: 20px;
-        margin-right: 20px;
+        margin-right: 0px;
     }
 
     .li-portfolio {
@@ -792,8 +806,3 @@ aside {
 
 
 }
-
-
-
-
-

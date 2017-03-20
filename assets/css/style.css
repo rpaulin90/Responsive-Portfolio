@@ -929,6 +929,7 @@ html, body {
         width: 92%;
         height: 50%;
         float: none;
+        margin-right: 0;
     }
 
     #description {
